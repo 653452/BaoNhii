@@ -1,0 +1,81 @@
+
+.categories h1 {
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.categories__container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.categories__left {
+  margin-right: 4rem;
+}
+
+.categories__left p {
+  margin: 1rem 0 3rem;
+}
+
+.categories__right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card .card-body {
+  padding: 20px;
+}
+
+.product-card .btn {
+  width: 100%;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+  /* Thay đổi màu chữ khi hover */
+}
+
+.navbar {
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
+
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.btn{
+  background-color:#c7a790 ;
+}
+
+.footer {
+  background-image: url('quynh-pham-8.jpg');
+  color: #fff;
+  
+}
+.footer p, .footer a {
+  color: #fff;
+}
